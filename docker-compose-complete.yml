@@ -5,8 +5,8 @@ services:
      context: .
      dockerfile: terraform.Dockerfile
    environment:
-     AWS_ACCESS_KEY: "AKIA2BKRFWRAGF4MVJFD"
-     AWS_SECRET_ACCESS_KEY: "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"
+     AWS_ACCESS_KEY: "$AWS_ACCESS_KEY"
+     AWS_SECRET_ACCESS_KEY: "$AWS_SECRET_ACCESS_KEY"
      AWS_REGION: "us-east-1"
      AWS_DEFAULT_REGION: "us-east-1"
    volumes:
